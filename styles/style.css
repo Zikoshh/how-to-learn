@@ -1,9 +1,9 @@
 @keyframes rotation {
   from {
-    rotate: (0deg);
+    transform: rotate(0deg);
   }
   to {
-    rotate: (360deg);
+    transform: rotate(360deg);
   }
 }
 .page {
@@ -195,12 +195,13 @@
 }
 
 .video__iframes {
-  margin: 50px auto 0;
+  margin: 50px auto -60px;
 }
 
 .video__iframe {
   width: 515px;
   height: 316px;
+
 }
 
 .oakley {
